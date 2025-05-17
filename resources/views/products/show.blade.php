@@ -49,9 +49,16 @@ btn-primary btn-sm">&larr; Back</a>
  </div>
  </div>
  
- </div>
- </div>
- </div> 
+    <div class="row">
+        <label for="image" class="col-md-4 col-form-label text-md-end text-start"><strong>Image:</strong></label>
+        <div class="col-md-6" style="line-height: 35px;">
+            @if ($product->image)
+                <img src="{{ asset('storage/' . $product->image) }}" alt="Product Image" width="100">
+            @else
+                <span class="text-danger">No image available</span>
+            @endif
+        </div>
+    </div>
 </div>
- 
+</div>
 @endsection

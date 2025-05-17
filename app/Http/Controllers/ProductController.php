@@ -29,7 +29,16 @@ return view('products.create');
 public function store(StoreProductRequest $request) : 
 RedirectResponse
 {
-Product::create($request->validated());
+    $validated = $request->validated();
+
+    
+        if ($request->hasFile('image')) {
+            $path = $request->file('image')->store('products', 'public');
+            $validated['image'] = $path;
+        }
+
+        Product::create($validated);
+
 return redirect()->route('products.index')
 ->withSuccess('New product is added successfully.');
 }
@@ -47,13 +56,26 @@ public function edit(Product $product) : View
 {
 return view('products.edit', compact('product'));
 }
+
 /**
 * Update the specified resource in storage.
 */
 public function update(UpdateProductRequest $request, Product
 $product) : RedirectResponse
 {
-$product->update($request->validated());
+
+
+    $validated = $request->validated();
+
+        if ($request->hasFile('image')) {
+            $path = $request->file('image')->store('products', 'public');
+            $validated['image'] = $path;
+        }else {
+            $validated['image'] = $product->image; 
+        }
+
+        $product->update($validated);
+
 return redirect()->back()
 ->withSuccess('Product is updated successfully.'); 
 }
