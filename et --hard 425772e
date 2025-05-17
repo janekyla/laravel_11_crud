@@ -1,0 +1,41 @@
+[33m3dde282[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mauthentication[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m425772e[m HEAD@{1}: checkout: moving from authentication to authentication
+[33m425772e[m HEAD@{2}: checkout: moving from file_upload to authentication
+[33m88068e0[m[33m ([m[1;31morigin/file_upload[m[33m, [m[1;32mfile_upload[m[33m)[m HEAD@{3}: commit: file upload
+[33m37070d7[m HEAD@{4}: checkout: moving from authentication to file_upload
+[33m425772e[m HEAD@{5}: checkout: moving from file_upload to authentication
+[33m37070d7[m HEAD@{6}: reset: moving to HEAD
+[33m37070d7[m HEAD@{7}: checkout: moving from authentication to file_upload
+[33m425772e[m HEAD@{8}: reset: moving to HEAD
+[33m425772e[m HEAD@{9}: checkout: moving from file_upload to authentication
+[33m37070d7[m HEAD@{10}: checkout: moving from file_upload to file_upload
+[33m37070d7[m HEAD@{11}: checkout: moving from authentication to file_upload
+[33m425772e[m HEAD@{12}: commit: Add product image upload functionality and update product form
+[33m3dde282[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mauthentication[m[33m)[m HEAD@{13}: checkout: moving from file_upload to authentication
+[33m37070d7[m HEAD@{14}: checkout: moving from authentication to file_upload
+[33m3dde282[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mauthentication[m[33m)[m HEAD@{15}: commit: Fix edit product view syntax and update form
+[33m41a9abb[m HEAD@{16}: checkout: moving from file_upload to authentication
+[33m37070d7[m HEAD@{17}: checkout: moving from main to file_upload
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{18}: checkout: moving from main to main
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{19}: checkout: moving from authentication to main
+[33m41a9abb[m HEAD@{20}: checkout: moving from file_upload to authentication
+[33m37070d7[m HEAD@{21}: checkout: moving from master to file_upload
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{22}: checkout: moving from main to master
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{23}: checkout: moving from authentication to main
+[33m41a9abb[m HEAD@{24}: checkout: moving from authentication to authentication
+[33m41a9abb[m HEAD@{25}: commit: Updated AuthController and added dashboard view
+[33m50bca82[m HEAD@{26}: checkout: moving from authentication to authentication
+[33m50bca82[m HEAD@{27}: checkout: moving from authentication to authentication
+[33m50bca82[m HEAD@{28}: checkout: moving from file_upload to authentication
+[33m37070d7[m HEAD@{29}: merge origin/file_upload: Fast-forward
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{30}: checkout: moving from main to file_upload
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{31}: Branch: renamed refs/heads/main to refs/heads/main
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{33}: checkout: moving from master to main
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{34}: checkout: moving from master to master
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{35}: checkout: moving from master to master
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{36}: Branch: renamed refs/heads/main to refs/heads/master
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{38}: checkout: moving from authentication to main
+[33m50bca82[m HEAD@{39}: commit: some added
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{40}: checkout: moving from Authentication to authentication
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{41}: checkout: moving from main to Authentication
+[33m7ddbea3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m HEAD@{42}: clone: from https://github.com/janekyla/laravel_11_crud.git

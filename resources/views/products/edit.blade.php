@@ -19,6 +19,7 @@ btn-primary btn-sm">&larr; Back</a>
  </div>
  <div class="card-body">
  <form action="{{ route('products.update', $product->id) }}" method="post">
+ <form action="{{ route('products.update', $product->id) }}" method="post">
  @csrf
 @method("PUT")
  <div class="mb-3 row">
@@ -89,5 +90,3 @@ name="description">{{ $product->description }}</textarea>
  </div>
  </div> 
 </div>
- 
-@endsection
