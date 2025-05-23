@@ -9,12 +9,12 @@ use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
-    // Show the registration form
+    
     public function showRegisterForm() {
-        return view('Auth.register'); // Correct view path
+        return view('Auth.register');
     }
 
-    // Handle user registration
+    
     public function register(Request $request) {
         $request->validate([
             'name' => 'required',
@@ -31,12 +31,12 @@ class AuthController extends Controller
         return redirect()->route('login')->with('success', 'Registration successful. Please login.');
     }
 
-    // Show the login form
+
     public function showLoginForm() {
-        return view('Auth.login'); // Correct view path
+        return view('Auth.login'); 
     }
 
-    // Handle user login
+    
     public function login(Request $request) {
         $credentials = $request->only('email', 'password');
 
@@ -50,7 +50,7 @@ class AuthController extends Controller
         ]);
     }
 
-    // Handle user logout
+    
     
 public function logout(Request $request) {
     Auth::logout();
