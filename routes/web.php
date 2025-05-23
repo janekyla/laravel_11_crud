@@ -13,5 +13,5 @@ Route::middleware(['auth'])->group(function () {
 Route::get('logout', [App\Http\Controllers\authController::class, 'logout'])->name('logout');
 Route::get('register', [App\Http\Controllers\authController::class, 'showRegisterForm'])->name('register');
 Route::post('register', [App\Http\Controllers\authController::class, 'register']);
-Route::get('login', [App\Http\Controllers\authController::class, 'showLoginForm'])->name('login');
-Route::post('login', [App\Http\Controllers\authController::class, 'login']);
+Route::get('', [App\Http\Controllers\authController::class, 'showLoginForm'])->name('login');
+Route::post('', [App\Http\Controllers\authController::class, 'login']);
